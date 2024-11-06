@@ -1,0 +1,111 @@
+/* Основные стили страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1a1a1a, #2b2b2b);
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Логотип */
+.logo-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.static-logo {
+    width: 30px; /* Уменьшаем размер логотипа */
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+
+.static-logo:hover {
+    background: rgba(0, 128, 0, 0.8); /* Зеленый цвет при наведении */
+}
+
+
+/* Заголовок */
+h1 {
+    text-align: center;
+    margin-top: 80px; /* Увеличиваем отступ, чтобы было выше логотипа */
+    font-size: 2.5em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Фото команды */
+.team-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.team-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.team-photo p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Позиции команды */
+.positions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.position {
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    color: #4CAF50;
+    background: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.position:hover {
+    background: rgba(76, 175, 80, 0.2);
+}
+
+/* Внимание */
+.warning {
+    text-align: center;
+    background: rgba(255, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Контакты */
+.contacts {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Черный баннер */
+.advertisement-banner {
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}

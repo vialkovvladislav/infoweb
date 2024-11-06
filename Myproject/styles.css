@@ -1,0 +1,121 @@
+/* Общие стили для body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #2a2a2a, #1c1c1c);
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Навигационная панель */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(34, 34, 34, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #32cd32;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 12px 24px;
+    border-radius: 30px;
+    background-color: rgba(50, 205, 50, 0.15);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+    font-size: 16px;
+    font-weight: bold;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+nav a:hover {
+    background-color: rgba(50, 205, 50, 0.3);
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+/* Основной контейнер для изображения и основного текста */
+.container {
+    display: flex;
+    max-width: 85%;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: rgba(34, 34, 34, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+    align-items: flex-start;
+}
+
+/* Стили для изображения */
+.photo {
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-right: 30px;
+}
+
+/* Стили для основного текста */
+.text {
+    flex-grow: 1;
+    color: #e0e0e0;
+}
+
+/* Стили для вводного текста (первый абзац) */
+.intro {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+/* Стили для блока описания и списка */
+.pod {
+    margin-top: 20px;
+    padding: 25px;
+    background-color: rgba(44, 44, 44, 0.8);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.pod h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #32cd32;
+    margin-bottom: 10px;
+}
+
+.pod ol {
+    padding-left: 20px;
+}
+
+.pod ol li {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+/* Тени и эффект подсветки на кнопках */
+nav a {
+    color: #32cd32;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(50, 205, 50, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+    backdrop-filter: blur(5px);
+}
+
+nav a:hover {
+    background-color: rgba(50, 205, 50, 0.4);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
